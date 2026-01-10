@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@300;500&display=swap');
+
+:root {
+    --font-sans: 'Inter', sans-serif; /* Para a narrativa */
+    --font-mono: 'JetBrains Mono', monospace; /* Para dados e métricas */
+}
+
+:root {
+  --bg: #0a0b10;
+  --panel-bg: rgba(20, 25, 35, 0.7);
+  --text: #e0e6ed;
+  --muted: #64748b;
+  --primary: #3b82f6;
+  --accent: #10b981;
+  --alert: #ef4444;
+  
+  --font-mono: "SF Mono", "Fira Code", monospace;
+  --font-body: system-ui, -apple-system, sans-serif;
+  
+  --glass: blur(12px);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+
+  background-image: 
+    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+h1, h2, h3 {
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 0.5rem;
+  color: var(--primary);
+}

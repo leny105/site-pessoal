@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/narrative.css">
+<style>
+  html, body {
+    background-color: #0a0b10 !important;
+    color: #e0e6ed !important;
+    margin: 0;
+    padding: 0;
+  }
+</style>
+<body>
+    <div id="system-monitor">
+        <div class="monitor-line">STATUS: <span id="monitor-status" style="color: #10b981;">ACTIVE</span></div>
+        <div class="monitor-line">LOAD: <span id="monitor-fatigue">0.00</span></div>
+        <div class="monitor-line">CORE: <span id="monitor-state">NEUTRAL</span></div>
+    </div>
+
+    <main id="narrative-engine">
+        <section id="stage-entry" class="stage active">
+            <span class="layer-meta">CAMADA_01 // INGESTÃO</span>
+            <div class="content">
+                <p>A percepção de um sistema começa no ruído. O que parece aleatório é apenas uma estrutura ainda não integrada.</p>
+            </div>
+            <button class="advance-btn" onclick="advanceStage('construction')">SINCRONIZAR</button>
+        </section>
+
+        <section id="stage-construction" class="stage">
+            <span class="layer-meta">CAMADA_02 // MODELAGEM</span>
+            <div class="content">
+                <p>Construir não é acumular. É filtrar o irrelevante até que a arquitetura se torne inevitável.</p>
+            </div>
+            <button class="advance-btn" onclick="advanceStage('system')">VALIDAR</button>
+        </section>
+
+        <section id="stage-system" class="stage">
+            <span class="layer-meta">CAMADA_03 // INTEGRAÇÃO</span>
+            <div class="content">
+                <p>Padrões não são vistos; são sentidos. A integração ocorre quando a resposta se antecipa ao problema.</p>
+            </div>
+            <button class="advance-btn" onclick="advanceStage('project')">MANIFESTAR</button>
+        </section>
+
+        <section id="stage-project" class="stage">
+            <span class="layer-meta">CAMADA_04 // EXECUÇÃO</span>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Arquitetura de Fluxos</h3>
+                    <p>Resolução de assimetria em sistemas complexos.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+        </main>
+</body>
+  <header>
+    <h1>Meu Portfólio Profissional</h1>
+    <nav>
+      <button data-target="home" class="active">Home</button>
+      <button data-target="projects">Projetos</button>
+      <button data-target="about">Sobre</button>
+      <button data-target="contact">Contato</button>
+    </nav>
+  </header>
+
+      <div id="events"></div>
+
+      <div class="layer layer-game" data-layer="game">
+        <h3>Projeto: Jogo Cognitivo</h3>
+        <p>Experiência interativa baseada em decisões.</p>
+        <button data-layer="game">Mostrar detalhes</button>
+      </div>
+
+      <div class="layer layer-system" data-layer="system" data-requires="game">
+        <h3>Sistema Modular</h3>
+        <p>Arquitetura viva e extensível.</p>
+      </div>
+    </section>
+
+    <section class="state" data-state="about">
+      <h2>Sobre</h2>
+      <p>Arquitetura cognitiva aplicada a design.</p>
+    </section>
+
+    <section class="state" data-state="contact">
+      <h2>Contato</h2>
+      <p>Email: lenilsonandrade4x@gmail.com</p>
+    </section>
+  </main>
+
+  <footer></footer>
+
+  <script src="assets/js/instrumentation.js"></script>
+  <script src="assets/js/narrative.js"></script>
+
+</body>
+</html>

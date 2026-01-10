@@ -1,0 +1,47 @@
+[
+  {
+    "id": "arch-001",
+    "context": "Site profissional",
+    "decision": "Narrativa contínua ao invés de seções conceituais",
+    "reason": "Competência inferida é mais forte que competência declarada",
+    "status": "ativo"
+  },
+  {
+    "id": "game-001",
+    "context": "Jogo em desenvolvimento",
+    "decision": "Arquitetura orientada a sistemas vivos",
+    "reason": "Permite crescimento sem reescrita estrutural",
+    "status": "em progresso"
+  },
+
+
+  {
+    "id": "site-arch-001",
+    "type": "architecture",
+    "origin": "site",
+    "title": "Narrativa contínua",
+    "description": "Estrutura narrativa substitui seções explícitas para induzir inferência.",
+    "timestamp": "2026-01-04"
+  },
+  {
+    "id": "game-sys-001",
+    "type": "system",
+    "origin": "game",
+    "title": "Sistema modular vivo",
+    "description": "O jogo evolui por sistemas independentes com integração explícita.",
+    "timestamp": "2026-01-05"
+  },
+
+  
+  {
+    "id": "game-arch-002",
+    "origin": "game",
+    "type": "architecture",
+    "title": "Separação entre estado e renderização",
+    "description": "Estados do jogo passaram a ser tratados como entidades independentes da camada visual.",
+    "impact": "alto",
+    "timestamp": "2026-01-06"
+  }
+
+
+]
